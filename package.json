@@ -1,10 +1,14 @@
 {
   "name": "hello-world",
   "version": "0.0.0",
+  "description": "Read:",
+  "main": "service-worker.js",
+  "author": "",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {
-    "start": "ng serve",
+    "start": "npm run lite",
+    "lite": "lite-server",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
@@ -12,6 +16,7 @@
   },
   "private": true,
   "dependencies": {
+    "lite-server": "^2.2.0",
     "@angular/common": "2.2.3",
     "@angular/compiler": "2.2.3",
     "@angular/core": "2.2.3",
