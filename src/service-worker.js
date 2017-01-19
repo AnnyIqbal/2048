@@ -5,7 +5,13 @@ var filesToCache = [
   '/',
   '/index.html',
   '/styles.css',
-  '/app/app.component.js',
+  '/main.ts',
+  '/favicon.ico',
+  '/polyfills.ts',
+  '/tsconfig.json',
+  '/typings.d.ts',
+  '/app/app.module.ts',
+  '/app/app.component.ts',
   '/app/app.component.html',
   '/app/app.component.css'
 
