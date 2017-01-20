@@ -2,7 +2,7 @@
   "name": "Hello World App Using Angular-cli",
   "short_name": "Hello",
   "icons": [{
-    "src": "favicon.png",
+    "src": "clear.png",
       "sizes": "144x144",
       "type": "image/png"
   }],

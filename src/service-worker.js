@@ -1,15 +1,17 @@
-// var dataCacheName = 'hw';
+var dataCacheName = 'hw1';
 
-var cacheName = 'helloWorl-01';
+var cacheName = 'helloWorld-01';
 var filesToCache = [
   '/',
   '/index.html',
   '/styles.css',
+  '/app/app.component.ts',
   './inline.bundle.js',
   './main.bundle.js',
   './styles.bundle.js',
   './vendor.bundle.js',
-  '/favicon.ico'
+  '/favicon.ico',
+  '/clear.png'
 ];
 
 self.addEventListener('install', function(e) {
