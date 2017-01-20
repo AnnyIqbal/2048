@@ -5,7 +5,7 @@ var filesToCache = [
   '/',
   '/index.html',
   '/styles.css',
-  '/app/app.component.ts',
+  '/app/index.ts',
   './inline.bundle.js',
   './main.bundle.js',
   './styles.bundle.js',

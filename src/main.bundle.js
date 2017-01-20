@@ -19,17 +19,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'app works!';
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker
-                .register('../service-worker.js')
-                .then(function () { console.log('Service Worker Registered'); });
-        }
+        console.log('CONSTRUCTOR');
+        // if ('serviceWorker' in navigator) {
+        //    navigator.serviceWorker
+        //        .register('../service-worker.js')
+        //        .then(function() { console.log('Service Worker Registered'); });
+        // }
     }
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["G" /* Component */])({
             selector: 'app-root',
-            template: __webpack_require__(586),
-            styles: [__webpack_require__(585)]
+            template: "<h1>\n                {{title}}\n              </h1>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -188,7 +188,7 @@ var environment = {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13_core_js_es6_reflect__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__ = __webpack_require__(446);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_core_js_es7_reflect__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(600);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__ = __webpack_require__(598);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
 
 
@@ -210,21 +210,7 @@ var environment = {
 
 /***/ },
 
-/***/ 585:
-/***/ function(module, exports) {
-
-module.exports = ""
-
-/***/ },
-
-/***/ 586:
-/***/ function(module, exports) {
-
-module.exports = "<h1>\r\n  {{title}}\r\n</h1>\r\n"
-
-/***/ },
-
-/***/ 601:
+/***/ 599:
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(329);
@@ -232,5 +218,5 @@ module.exports = __webpack_require__(329);
 
 /***/ }
 
-},[601]);
+},[599]);
 //# sourceMappingURL=main.bundle.map
