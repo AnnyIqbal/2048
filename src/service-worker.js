@@ -1,6 +1,6 @@
 // var dataCacheName = 'hw';
 
-var cacheName = 'helloWorld';
+var cacheName = 'helloWorl-01';
 var filesToCache = [
   '/',
   '/index.html',
